@@ -1,0 +1,95 @@
+.card {
+  margin: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+.card__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+.card__text--title h1 {
+  margin: 0;
+  font-size: 17px;
+}
+.card__text--description h2 {
+  font-size: 11px;
+}
+.card__text--description p {
+  font-size: 9px;
+}
+.card__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card__images--foto {
+  display: flex;
+}
+.card__images--foto img {
+  height: 158px;
+}
+.card__images--foto p {
+  margin: 0 5px;
+  font-size: 7px;
+  writing-mode: vertical-rl;
+}
+.card__images--name p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+.card__images--space-m {
+  height: 0px;
+}
+.card__images--space-M {
+  height: 30px;
+}
+@media screen and (max-width: 392px) {
+  .card__images--space-m {
+    height: 0px;
+  }
+  .card__images--space-M {
+    height: 0px;
+  }
+  .card__images--space-x {
+    height: 0px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .card__images--space-m {
+    height: 30px;
+  }
+  .card__images--space-M {
+    height: 0px;
+  }
+  .card__images--space-x {
+    height: 30px;
+  }
+}
+@media screen and (min-width: 690px) {
+  .card__images--space-M {
+    height: 30px;
+  }
+  .card__images--space-m {
+    height: 0px;
+  }
+  .card__images--space-x {
+    height: 30px;
+  }
+}
+@media screen and (min-width: 835px) {
+  .card__images--space-x {
+    height: 0px;
+  }
+}
+
+.attribution {
+  margin: 10px;
+}/*# sourceMappingURL=styles.css.map */

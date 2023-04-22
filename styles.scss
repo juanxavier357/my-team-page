@@ -1,0 +1,129 @@
+.card {
+    margin: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+
+    &__text {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        font-family: 'Poppins', sans-serif;
+        column-gap: 70px;
+
+        &--title {
+
+            h1 {
+                margin: 0;
+                font-size: 17px;
+            }
+        }
+
+        &--description {
+
+            h2 {
+                font-size: 11px;
+            }
+
+            p {
+                font-size: 9px;
+            }
+        }
+    }
+
+    &__images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        &--foto {
+
+            display: flex;
+
+            img {
+                height: 158px;
+            }
+
+            p {
+                margin: 0 5px;
+                font-size: 7px;
+                writing-mode: vertical-rl;
+            }
+        }
+
+        &--name {
+            p {
+                margin: 5px 0;
+                font-size: 12px;
+            }
+        }
+
+        &--space-m {
+            height: 0px;
+        }
+
+        &--space-M {
+            height: 30px;
+        }
+
+        @media screen and (max-width: 392px) {
+
+            &--space-m {
+                height: 0px;
+            }
+
+            &--space-M {
+                height: 0px;
+            }
+
+            &--space-x {
+                height: 0px;
+            }
+        }
+
+        @media screen and (min-width: 540px) {
+
+            &--space-m {
+                height: 30px;
+            }
+
+            &--space-M {
+                height: 0px;
+            }
+
+            &--space-x {
+                height: 30px;
+            }
+        }
+
+        @media screen and (min-width: 690px) {
+
+            &--space-M {
+                height: 30px;
+            }
+
+            &--space-m {
+                height: 0px;
+            }
+
+            &--space-x {
+                height: 30px;
+            }
+        }
+
+        @media screen and (min-width: 835px) {
+
+            &--space-x {
+                height: 0px;
+            }
+        }
+    }
+}
+
+.attribution {
+    margin: 10px;
+}
