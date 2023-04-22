@@ -27,15 +27,15 @@ This is a solution to the My Team Page project of the Make It Real course.
 
 **Screenshot**
 
-  ![Mobile Design width-395px](https://github.com/juanxavier357/my-team-page/blob/master/Mobile%20Design%20width-395px.JPG)
+  ![Mobile Design width-395px](https://github.com/juanxavier357/my-team-page/blob/master/img/Mobile%20Design%20width-395px.JPG)
   
-  ![Wed Design width-545px](https://github.com/juanxavier357/my-team-page/blob/master/Wed%20Design%20width-545px.JPG)
+  ![Wed Design width-545px](https://github.com/juanxavier357/my-team-page/blob/master/img/Wed%20Design%20width-545px.JPG)
   
-  ![Web Design with-695px](https://github.com/juanxavier357/my-team-page/blob/master/Web%20Design%20with-695px.JPG)
+  ![Web Design with-695px](https://github.com/juanxavier357/my-team-page/blob/master/img/Web%20Design%20with-695px.JPG)
  
-  ![Web Design width-990px](https://github.com/juanxavier357/my-team-page/blob/master/Web%20Design%20width-990px.JPG)
+  ![Web Design width-990px](https://github.com/juanxavier357/my-team-page/blob/master/img/Web%20Design%20width-990px.JPG)
   
-  ![Web Design página-Google](https://github.com/juanxavier357/my-team-page/blob/master/Web%20Design%20p%C3%A1gina-Google.JPG)
+  ![Web Design página-Google](https://github.com/juanxavier357/my-team-page/blob/master/img/Web%20Design%20p%C3%A1gina-Google.JPG)
 
 ## My process
 
